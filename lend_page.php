@@ -22,7 +22,7 @@ $conn = db_init($config["host"], $config["duser"], $config["dpw"], $config["dnam
   </head>
   <body>
     <header class="page-header">
-      <a href="http://192.168.123.200/mkb/projects/mkb/wiki"><img src="img/1276962_MStarLogo.jpg" alt=""></a>
+      <?php require("lib/header.php"); ?>
     </header>
     <ul class="nav nav-tabs">
       <li><a href="index.php">Current state</a></li>
